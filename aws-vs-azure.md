@@ -76,3 +76,60 @@
 | Snowcone | Stack Edge | Edge computing & data transfer. Run apps at the edge, transfer data. Use as a local compute resource, transfer data to/from the cloud. |
 | Snowmobile | Data Box Heavy | Exabyte-scale data transfer. Move massive datasets to the cloud. Request a truck, transfer data, and send to the cloud facility. |
 | Lambda@Edge | Edge Zones & Functions | Run functions closer to end-users. Process data with low latency. Deploy functions to edge locations. |
+
+| AWS Service | Azure Service | Description |
+|-------------|---------------|-------------|
+| Chime | Teams | Communications service. Video and audio conferencing, chat. Schedule and attend meetings, communicate in real-time. |
+| AWS Signer | Azure Key Vault | Code signing for AWS IoT. Ensure code integrity for IoT devices. Sign code, deploy securely to devices. |
+| AppFlow | Logic Apps | Integration service. Automate workflows between apps. Design and run workflows connecting multiple services. |
+| CloudEndure Migration | Azure Site Recovery | Cloud migration tool. Ensure data replicates and runs seamlessly post-migration. Set up replication, monitor progress, cutover. |
+| Connect | Azure Communication Services | Cloud-based contact center. Set up and manage customer service interactions. Configure flows, handle customer interactions. |
+| Honeycode | Power Apps | No-code application builder. Create apps without programming. Design UI, set up data sources, deploy to users. |
+| Braket | Azure Quantum | Quantum computing service. Explore and build quantum algorithms. Define quantum tasks, execute, retrieve results. |
+| Detective | Azure Sentinel | Analysis and visualization. Investigate potential security issues. Enable service, review connected data, analyze patterns. |
+| AppStream 2.0 | Windows Virtual Desktop | Application streaming. Deliver desktop applications to any device. Configure app environment, stream to users. |
+| Elastic File System (EFS) | Azure Files | Managed file storage. Store and access files across multiple instances. Create filesystem, mount, and use. |
+| WorkDocs | OneDrive for Business | Document collaboration service. Store, share, and collaborate on files. Upload files, collaborate in real-time, manage versions. |
+| WorkMail | Outlook/Exchange Online | Managed email service. Send and receive emails, manage calendars. Set up mailboxes, interact via standard mail clients. |
+| AWS Single Sign-On | Azure AD Single Sign-On | Centralized access management. Manage access to AWS accounts and business applications. Set up identities, manage permissions. |
+| Managed Blockchain | Azure Blockchain Service | Blockchain as a service. Create and manage scalable blockchain networks. Set up network, deploy applications, transact. |
+| Elemental MediaConnect | Azure Media Services | Reliable video transport. Securely ingest, process, and deliver video streams. Set up flows, transmit video feeds. |
+| Elemental MediaLive | Azure Media Services | Live video processing. Encode live video streams. Input streams, apply encoding, output to desired format. |
+| Elemental MediaPackage | Azure Media Services | Video origination and packaging. Prepare video for delivery to internet devices. Ingest video, package, deliver. |
+| Elemental MediaTailor | Azure Media Services | Video personalization and monetization. Insert personalized ads into video streams. Define ad breaks, personalize content. |
+| License Manager | Azure License Management | Software license management. Manage software licenses from vendors. Set up rules, associate licenses to instances. |
+| Outposts | Azure Stack | Hybrid cloud. Bring AWS/Azure services on-premises. Set up infrastructure locally, use AWS/Azure services seamlessly. |
+| TSO Logic | Azure Migrate: Assessment and Tools | Migration assessment. Plan migrations with detailed insights. Import current environment data, get migration suggestions. |
+| FSx for Lustre | Azure NetApp Files & Blob Storage | High-performance file system. Process data-intensive workloads. Create file system, integrate with compute, process data. |
+| FSx for Windows | Azure Files & Azure NetApp Files | Managed Windows file system. Store and access data using Windows native formats. Create shares, access using Windows protocols. |
+| Security Hub | Azure Security Center | Centralized security management. View and manage security alerts. Aggregate security findings, review insights. |
+| Amazon SES (Simple Email Service) | Azure Communication Services or SendGrid | Cloud-based email service. Send marketing, transactional emails. Set up, send emails using APIs/SMTP. |
+| Pinpoint | Azure Notification Hubs | User engagement platform. Communicate with users across multiple channels. Design campaigns, engage with users. |
+| AWS Cost Explorer | Azure Cost Management + Billing | Cost management and analysis. Analyze and forecast AWS/Azure costs. Review costs, get insights, forecast future costs. |
+| Cloud9 | Azure Cloud Shell & Visual Studio Codespaces | Cloud-based IDE. Write, run, and debug code in the browser. Set up environment, develop and debug applications.
+
+| AWS Service | Azure Service | Description |
+|-------------|---------------|-------------|
+| **AWS SAM (Serverless Application Model)** | **Azure Serverless Framework** | Define and deploy serverless applications. Simplify the creation of Lambda functions and APIs. Model your serverless application, deploy as a CloudFormation stack. |
+| **CodeCommit** | **Azure Repos** | Source control service. Host private Git repositories. Collaborate on code, track changes, and integrate with CI/CD. |
+| **CodeBuild** | **Azure Pipelines** | Continuous integration service. Compile, test, and package code. Define build steps, integrate with source repos, automate build processes. |
+| **CodeDeploy** | **Azure Pipelines** | Automated deployment service. Automate software deployments. Use with CI/CD, roll out new features, ensure high availability. |
+| **CodePipeline** | **Azure Pipelines** | Continuous delivery service. Automate the build, test, and deployment phases. Define stages, link to source repos and deployment resources. |
+| **Step Functions** | **Azure Logic Apps** | Serverless workflow service. Coordinate components of distributed apps. Visualize and create workflows, integrate with other services. |
+| **SWF (Simple Workflow Service)** | **Azure Logic Apps & Durable Functions** | Workflow service for applications. Coordinate tasks across distributed components. Define workers, coordinate tasks, and handle application state. |
+| **Elastic Beanstalk** | **Azure App Service** | Platform as a service. Deploy applications without infrastructure management. Upload code, and the service handles deployment, scaling, and monitoring. |
+| **CloudSearch** | **Azure Cognitive Search** | Managed search service. Add search capabilities to websites and apps. Index content, run search queries, and customize search results. |
+| **Amazon SNS (Simple Notification Service)** | **Azure Notification Hubs** | Messaging service. Send messages or notifications. Publish messages to large numbers of recipients via SMS, email, etc. |
+| **Amazon SQS (Simple Queue Service)** | **Azure Queue Storage** | Message queue service. Decouple components of cloud applications. Send, store, and retrieve messages between components. |
+| **Amazon MQ** | **Azure Service Bus** | Managed message broker. Support for several messaging protocols. Integrate and communicate between applications and services. |
+| **Kinesis** | **Azure Stream Analytics & Event Hubs** | Streaming data platform. Collect, process, and analyze streaming data. Ingest large streams of data in real time, process, and analyze. |
+| **EventBridge (formerly CloudWatch Events)** | **Azure Event Grid** | Serverless event bus. Connect applications with decoupled, event-driven architectures. Listen for events, route to appropriate destinations. |
+| **DynamoDB** | **Azure Cosmos DB** | Managed NoSQL database. Store and retrieve any volume of data. Use as a key-value or document database with low-latency access. |
+| **Redshift** | **Azure Synapse Analytics (formerly SQL Data Warehouse)** | Data warehouse service. Analyze data with popular SQL-based tools. Store large volumes of structured data, run complex queries. |
+| **Athena** | **Azure Data Lake Analytics** | Serverless query service. Analyze data in S3 using SQL. Run ad-hoc queries on large datasets, pay per query. |
+| **Elasticsearch Service** | **Azure Elasticsearch** | Managed Elasticsearch service. Search, analyze, and visualize data. Index data, run search queries, and visualize with Kibana. |
+| **DMS (Database Migration Service)** | **Azure Database Migration Service** | Migration for databases. Migrate databases to AWS with minimal downtime. Connect to source, replicate data, switch over to the new environment. |
+| **AWS Organizations** | **Azure Management Groups** | Centralized management. Organize and consolidate AWS/Azure accounts. Set up hierarchy, manage policies, and consolidate billing. |
+| **CloudTrail** | **Azure Activity Log** | Logging service for AWS account activity. Monitor, store, and search activity logs. Track user activity, API calls, and changes. |
+| **Config** | **Azure Policy & Blueprints** | Configuration management. Monitor and control AWS resource configurations. Set up desired configs, monitor for changes, take corrective action. |
+| **CloudFormation** | **Azure Resource Manager (ARM) Templates** | Infrastructure as code. Define and deploy AWS/Azure resources. Use templates to define resources, deploy as stacks. |
